@@ -451,17 +451,6 @@ form input:focus, form textarea:focus {
     font-size: 1.2rem;
 }
 
-.check { color: #28a745; }
-.lock { color: #007bff; }
-.email { color: #17a2b8; }
-.phone { color: #6f42c1; }
-.film { color: #dc3545; }
-.tag { color: #fd7e14; }
-.search { color: #20c997; }
-.play { color: #e83e8c; }
-.add { color: #28a745; }
-.category { color: #17a2b8; }
-.db { color: #6c757d; }
 
 @media (max-width: 768px) {
     .feature-card {
@@ -475,4 +464,65 @@ form input:focus, form textarea:focus {
     .feature-list li {
         font-size: 0.9rem;
     }
+}
+
+/* Style pour la section de stage */
+/* Ajout de styles manquants */
+.intership {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: rgba(108, 99, 255, 0.05);
+    border-left: 4px solid var(--primary-color);
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+/* Correction de la typo "Monoply" à "Monopoly" */
+.project-image img {
+    content: url("Monopoly.jpg");
+}
+
+/* Amélioration de la section stage */
+#internship {
+    background: rgba(108, 99, 255, 0.05);
+    padding: 25px;
+    border-radius: 10px;
+    border-left: 4px solid var(--accent-color);
+}
+
+/* Styles pour le carnet de bord */
+.week-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.week-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.task-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.task-list li {
+    padding: 8px 0;
+    border-bottom: 1px dashed #eee;
+    display: flex;
+}
+
+.task-list li:last-child {
+    border-bottom: none;
+}
+
+.task-check {
+    color: var(--primary-color);
+    margin-right: 10px;
 }
