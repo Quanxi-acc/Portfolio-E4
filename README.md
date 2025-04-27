@@ -23,8 +23,8 @@ Portfolio professionnel présentant mes réalisations dans le cadre du BTS SIO (
 - Technologies : HTML/CSS, JavaScript, PHP, MySQL
 
 ### 💼 Stage de 1ère année
-- **Mairie de Vaux-en-Velin** (10/06 - 25/07/2025)
-- Mission : Développement d'un moteur de recherche pour les délibérations
+- **OOGARDEN - Amberieu en Bugey** (10/06 - 25/07/2025)
+- Mission : Reprise d'un code Python avec Google Analytics
 - Technologies : PHP, SQL
 
 ### 🔍 Veille Technologique
