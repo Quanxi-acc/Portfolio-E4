@@ -25,7 +25,7 @@ Portfolio professionnel présentant mes réalisations dans le cadre du BTS SIO (
 ### 💼 Stage de 1ère année
 - **OOGARDEN - Amberieu en Bugey** (10/06 - 25/07/2025)
 - Mission : Reprise d'un code Python avec Google Analytics
-- Technologies : PHP, SQL
+- Technologies : Visual Studio | C# | Python | Google Analytics API
 
 ### 🔍 Veille Technologique
 #### 🛠 Outils utilisés
