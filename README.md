@@ -20,11 +20,11 @@ Portfolio professionnel présentant mes réalisations dans le cadre du BTS SIO (
 #### 🎬 Netflix
 - Site de streaming avec catalogue dynamique
 - Système de gestion de comptes
-- Technologies : HTML/CSS, JavaScript, PHP, MySQL
+- Technologies : HTML, CSS, JavaScript, PHP, MySQL
 
 ### 💼 Stage de 1ère année
 - **OOGARDEN - Amberieu en Bugey** (10/06 - 25/07/2025)
-- Mission : Reprise d'un code Python avec Google Analytics
+- Mission : Effectuer un programme C# qui se conecte à GoogleAnaltics pour y récupérer des données pour l'entreprise.
 - Technologies : Visual Studio | C# | Python | Google Analytics API
 
 ### 🔍 Veille Technologique
