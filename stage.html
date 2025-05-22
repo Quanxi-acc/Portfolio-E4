@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnet de Bord de Stage - Evann Terrier</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1><i class="fas fa-briefcase"></i> Carnet de Bord de Stage</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="btn"><i class="fas fa-arrow-left"></i> Retour au Portfolio</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="internship-section">
+            <div class="project-info">
+                <h2><i class="fas fa-building"></i> Stage chez OOGARDEN - Ambérieu-en-Bugey</h2>
+                <div class="internship-details">
+                    <p><strong><i class="far fa-calendar-alt"></i> Durée :</strong> 12 Mai - 27 Juin 2025 (7 semaines)</p>
+                    <p><strong><i class="fas fa-tasks"></i> Mission principale :</strong> Créer un programme qui se connecte à Google Analytics 4 pour aller récupérer des données récoltées sur nos sites web (ex : nombre d'utilisateurs par mois et par pays).</p>
+                    <p><strong><i class="fas fa-code"></i> Technologies :</strong> Visual Studio | Python | C# | Google Analytics API</p>
+                </div>
+            </div>
+
+            <h2 class="journal-title"><i class="fas fa-book-open"></i> Journal de Bord Hebdomadaire</h2>
+            
+            <!-- Semaine 1 -->
+            <div class="week-card">
+                <div class="week-header">
+                    <h3><i class="far fa-calendar-check"></i> Semaine 1 (12-17 | 2025)</h3>
+                    <span class="week-number">Semaine 1/7</span>
+                </div>
+                <ul class="task-list">
+                    <li><i class="fas fa-search"></i> Découverte de l'entreprise et de l'équipe.</li>
+                    <li><i class="fas fa-laptop-code"></i> Installation et configuration de l'environnement de développement.</li>
+                    <li><i class="fab fa-python"></i> Découverte du code Python existant.</li>
+                    <li><i class="fas fa-book"></i> Lectures de la documentation Google Analytics API.</li>
+                    <li><i class="fab fa-git-alt"></i> Découverte de la version graphique de Git BASH (Git Extension).</li>
+                    <li><i class="fas fa-code"></i> Découverte du langage C#.</li>
+                    <li><i class="fas fa-desktop"></i> Première utilisation de l'outil Visual Studio.</li>
+                    <li><i class="fab fa-github"></i> Création d'un dépot git en local avec un serveur distant.</li>
+                    <li><i class="fas fa-exchange-alt"></i> Traduction faite de Python à C# (Code presque déjà présent sur Google merci StackOverflow).</li>
+                    <li><i class="fas fa-key"></i> Identification des pièces manquantes pour que mon programme marche (Clé JSON regroupant les identifiants pour récupérer les résultats + numéro de la propriété du compte GoogleAnalytics).</li>
+                    <li><i class="fas fa-terminal"></i> Premier résultat de mon programme C# dans la console (Nb d'utilisateurs actifs par ville).</li>
+                    <li><i class="fas fa-sort-amount-up"></i> Amélioration des résultats en triant par les 3 meilleurs villes avec l'ajout d'une nouvelle méthode générant le total.</li>
+                    <li><i class="far fa-file-excel"></i> Ajout d'un système qui renvoie en document excel.</li>
+                    <li><i class="fas fa-graduation-cap"></i> Nouvelle formation de git avec git Extension et comment gérer son dépot & comment l'utiliser en entreprise.</li>
+                    <li><i class="fas fa-filter"></i> J'ai appris à créer mon propre .gitignore pour améliorer le visuel de mes commit et garder que mes fichiers sources et virer les .dll, .exe, .bin , ...</li>
+                    <li><i class="fas fa-file-word"></i> Rédaction d'une procédure Word pour aider dans le future mes collegues pour refaire la procédure de connexion à Google Analytics (Création d'un compte de service, propertyID, Comment générer une Clé JSON). PS : Je les ai pas écouté et je l'ai fais en Markdown vous inquiétez pas M. Januel</li>
+                </ul>
+            </div>
+            
+            <!-- Semaine 2 -->
+            <div class="week-card">
+                <div class="week-header">
+                    <h3><i class="far fa-calendar-check"></i> Semaine 2 (20-25 | 2025)</h3>
+                    <span class="week-number">Semaine 2/7</span>
+                </div>
+                <ul class="task-list">
+                    <li><i class="fas fa-language"></i> J'ai appris la méthode de programmation de l'entreprise et renommé toute mes variables en anglais pour qu'elle soit le plus claire possible.</li>
+                    <li><i class="fas fa-sync-alt"></i> Amélioration de mon code en le rendant plus lisible et en essayant de tout remplacer par des fonctions. (pour le moment pas réussi c'est trop dur)</li>
+                    <li><i class="fas fa-calendar-day"></i> Ajout d'une dateRange sur mon fichier Excel qui est définie par les arguments que j'ai donné en entré dans mon main (args[0] -> startDate args[1] -> endDate) (période de collecte des résultats)</li>
+                    <li><i class="fas fa-file-alt"></i> Mise à jour de ma Procédure d'utilisation</li>
+                    <li><i class="fas fa-database"></i> J'ai mis de nouvelles valeurs dans la collecte des données de mon code pour qu'il puisse collecter des données qui sont vraiment importantes et utiles pour l'entreprise (activeUsers, newUsers, bounceRate, screenPageViews, etc..)</li>
+                    <li><i class="fas fa-globe-europe"></i> Récupération des données sur les différents sites de OOGarden hors France (Belgique et Allemagne)</li>
+                    <li><i class="fas fa-sort-alpha-down"></i> Ajout d'un système de tri pour avoir une cohérence dans les résultats obtenu dans mon fichier excel</li>
+                    <li><i class="fas fa-code-branch"></i> Apprentissage du lexique des Commits et comment faire un qui est efficace</li>
+                    <li><i class="fas fa-exclamation-triangle"></i> Je rencontre pour le moment ma plus grande difficulté qui est le formatage de mon code tout transformer en fonction</li>
+                    <li><i class="fas fa-utensils"></i> Apéro à la Maison de Phillipe et barbecue merguez, brochette, ... de 12h -> 14h</li>
+                    <li><i class="fas fa-cut"></i> Découpage de mon code en 2 fonctions, une fonction récupérant les données et l'autre concernant le formatage en fichier Excel</li>
+                </ul>
+            </div>
+            
+            <!-- Semaines 3 à 7 (structure vide) -->
+            <div class="week-card">
+                <div class="week-header">
+                    <h3><i class="far fa-calendar-check"></i> Semaine 3 (28 - 1 | 2025)</h3>
+                    <span class="week-number">Semaine 3/7</span>
+                </div>
+                <ul class="task-list">
+                    <li><i class="fas fa-question"></i> Découverte d'un Web Service </li>
+                    <li><i class="fas fa-question"></i> Découverte du fonctionnement d'un Batch</li>
+                    <li><i class="fas fa-question"></i> Apprentissage de la création d'un appel à Sage ( Logiciel qui va recevoir mes données de GA4 ) en XML Soap /li>
+                    <li><i class="fas fa-question"></i> Apprentissage de la création d'une requête HTTP</li>
+                    <li><i class="fas fa-question"></i> Fix d'un bug dans lequel je pensais reçevoir les données de Belgique et Allemagne alors que ce sont les Belges/Allemands qui se connecte au site Français et non directement le site Belge/Allemagne
+                    <li><i class="fas fa-question"></i>
+                    <li><i class="fas fa-question"></i>
+                    <li><i class="fas fa-question"></i>
+                    <li><i class="fas fa-question"></i>
+                    <li><i class="fas fa-question"></i>        
+                </ul>
+            </div>
+            
+            <!-- Semaines 4 à 7 similaires... -->
+        </section>
+        
+        <section class="skills-section">
+            <h2><i class="fas fa-award"></i> Compétences acquises</h2>
+            <div class="skills-acquired">
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Techniques</h3>
+                    <ul class="blue-bullets">
+                        <li><i class="fas fa-check"></i> /</li>
+                        <li><i class="fas fa-check"></i> /</li>
+                        <li><i class="fas fa-check"></i> /</li>
+                        <li><i class="fas fa-check"></i> /</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-user-tie"></i> Professionnelles</h3>
+                    <ul class="blue-bullets">
+                        <li><i class="fas fa-check"></i> Travail en entreprise</li>
+                        <li><i class="fas fa-check"></i> Gestion de projet</li>
+                        <li><i class="fas fa-check"></i> Documentation technique</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 Evann Terrier - Portfolio BTS SIO</p>
+            <div class="footer-links">
+                <a href="mailto:evann.terrier17@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/Quanxi-acc" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/evann-terrier-63a439350" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
