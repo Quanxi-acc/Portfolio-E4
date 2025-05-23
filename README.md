@@ -52,9 +52,9 @@ Portfolio professionnel présentant mes réalisations dans le cadre du BTS SIO (
 *À venir...*
 
 ### 📞 Contact
-- 📧 Email : [evann.terrier17@gmail.com](mailto:evann.terrier17@gmail.com)
-- 📞 Téléphone : 06 11 93 71 32
-- 💼 LinkedIn : [Evann Terrier](https://www.linkedin.com/in/evann-terrier-63a439350)
+- 📧 Email : [XXX](XX)
+- 📞 Téléphone : XXX
+- 💼 LinkedIn : [XXr](XX)
 - 💻 GitHub : [Quanxi-acc](https://github.com/Quanxi-acc)
 
 ## 🌐 Accès au portfolio
