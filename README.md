@@ -54,7 +54,7 @@ Portfolio professionnel présentant mes réalisations dans le cadre du BTS SIO (
 ### 📞 Contact
 - 📧 Email : [XXX](XX)
 - 📞 Téléphone : XXX
-- 💼 LinkedIn : [XXr](XX)
+- 💼 LinkedIn : [XX](XX)
 - 💻 GitHub : [Quanxi-acc](https://github.com/Quanxi-acc)
 
 ## 🌐 Accès au portfolio
