@@ -23,7 +23,7 @@ Portfolio professionnel présentant mes réalisations dans le cadre du BTS SIO (
 - Technologies : HTML, CSS, JavaScript, PHP, MySQL
 
 ### 💼 Stage de 1ère année
-- **OOGARDEN - Amberieu en Bugey** (10/06 - 25/07/2025)
+- **OOGARDEN - Amberieu en Bugey** (10/05/2025 -> 25/06/2025)
 - Mission : Effectuer un programme C# qui se conecte à GoogleAnaltics pour y récupérer des données pour l'entreprise.
 - Technologies : Visual Studio | C# | Python | Google Analytics API
 
