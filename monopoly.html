@@ -1,64 +1,66 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projet Monopoly - Portfolio Evann</title>
-    <link rel="stylesheet" href=portfolio.css>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Projet Monopoly – Portfolio Evann</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
-<body>
-    <header>
-        <div class="header-content">
-            <h1>Projet Monopoly</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html" class="btn"><i class="fas fa-arrow-left"></i> Retour au Portfolio</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <main>
-        <section class="project-section">
-            <h2><i class="fas fa-dice"></i> Détails du projet Monopoly</h2>
-            <div class="project-details">
-                </div>
-                <div class="project-info">
-                    <h3><i class="fas fa-chess-board"></i> Reproduction du jeu Monopoly</h3>
-                    <div class="project-description">
-                        <p><strong><i class="fas fa-book-open"></i> Contexte :</strong> Implémentation en Python du célèbre jeu de plateau avec une approche orientée objet.</p>
-                        
-                        <div class="features-box">
-                            <p><strong><i class="fas fa-cogs"></i> Fonctionnalités :</strong></p>
-                            <ul class="blue-bullets">
-                                <li><i class="fas fa-home"></i> Mécaniques de jeu complètes (achat, construction, etc.)</li>
-                                <li><i class="fas fa-users"></i> Gestion des joueurs</li>
-                                <li><i class="fas fa-save"></i> Sauvegarde/chargement des parties</li>
-                                <li><i class="fas fa-terminal"></i> Interface en ligne de commande</li>
-                            </ul>
-                        </div>
-                        
-                        <p><strong><i class="fas fa-code"></i> Technologies :</strong> Python (Programmation Orientée Objet)</p>
-                    </div>
-                    
-                    <div class="project-links">
-                        <a href="https://github.com/Quanxi-acc/Monopoly.git" class="btn github-btn" target="_blank">
-                            <i class="fab fa-github"></i> Code source
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="footer-content">
-            <p>© 2025 Evann Terrier - Portfolio BTS SIO</p>
-            <div class="footer-links">
-                <a href="mailto:evann.terrier17@gmail.com"><i class="fas fa-envelope"></i></a>
-                <a href="https://github.com/Quanxi-acc" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/evann-terrier-63a439350" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </div>
-        </div>
-    </footer>
+<body class="bg-[#1A1A1B] text-gray-100 font-sans min-h-screen">
+
+  <!-- Header -->
+  <header class="py-6 px-6 border-b border-gray-800 flex items-center justify-between">
+    <h1 class="text-2xl font-bold bg-gradient-to-r from-accent to-accent2 bg-clip-text text-transparent">
+      🧩 Projet Monopoly
+    </h1>
+    <a href="index.html"
+       class="inline-block px-4 py-2 rounded border border-gray-700 text-light hover:border-accent transition">
+      <i class="fas fa-arrow-left mr-2"></i> Retour au portfolio
+    </a>
+  </header>
+
+  <!-- Main -->
+  <main class="max-w-5xl mx-auto px-6 py-12 space-y-12">
+    <section>
+      <h2 class="text-2xl font-semibold text-white mb-4">
+        <i class="fas fa-chess-board mr-2"></i> Reproduction du jeu Monopoly
+      </h2>
+      <p class="text-gray-400">
+        <strong>Contexte :</strong> Implémentation en Python du célèbre jeu de plateau avec une approche orientée objet.
+      </p>
+    </section>
+
+    <section>
+      <h3 class="text-xl font-bold mb-4"><i class="fas fa-cogs mr-2"></i> Fonctionnalités</h3>
+      <ul class="list-disc list-inside text-gray-400 space-y-1">
+        <li><i class="fas fa-home mr-1 text-accent"></i> Mécaniques de jeu complètes (achat, construction, etc.)</li>
+        <li><i class="fas fa-users mr-1 text-accent"></i> Gestion des joueurs</li>
+        <li><i class="fas fa-save mr-1 text-accent"></i> Sauvegarde/chargement des parties</li>
+        <li><i class="fas fa-terminal mr-1 text-accent"></i> Interface en ligne de commande</li>
+      </ul>
+    </section>
+
+    <section>
+      <h3 class="text-xl font-bold mb-4"><i class="fas fa-code mr-2"></i> Technologies utilisées</h3>
+      <div class="flex flex-wrap gap-2">
+        <span class="bg-accent/10 text-accent px-3 py-1 rounded-full text-sm">Python</span>
+        <span class="bg-accent/10 text-accent px-3 py-1 rounded-full text-sm">Programmation Orientée Objet</span>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="text-xl font-bold mb-4"><i class="fab fa-github mr-2"></i> Code source</h3>
+      <a href="https://github.com/Quanxi-acc/Monopoly.git"
+         class="inline-block px-5 py-3 bg-gradient-to-r from-accent to-accent2 text-white rounded font-medium transition">
+        Voir sur GitHub
+      </a>
+    </section>
+  </main>
+
+  <footer class="py-8 px-6 border-t border-gray-800 text-center text-gray-500 text-sm">
+    © 2025 Evann Terrier – Projet Monopoly
+  </footer>
 </body>
 </html>

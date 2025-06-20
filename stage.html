@@ -1,221 +1,120 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Carnet de Bord de Stage - Evann Terrier </title>
-    <link rel="stylesheet" href="portfolio.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Stage chez OOGARDEN – Portfolio Evann</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
-<body>
-    <header>
-        <div class="header-content">
-            <h1><i class="fas fa-briefcase"></i> Carnet de Bord de Stage</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html" class="btn"><i class="fas fa-arrow-left"></i> Retour au Portfolio</a></li>
-                </ul>
-            </nav>
+<body class="bg-[#1A1A1B] text-gray-100 font-sans min-h-screen">
+
+  <!-- Header -->
+  <header class="py-6 px-6 border-b border-gray-800 flex items-center justify-between">
+    <h1 class="text-2xl font-bold bg-gradient-to-r from-accent to-accent2 bg-clip-text text-transparent">
+      🧾 Stage chez OOGARDEN
+    </h1>
+    <a href="index.html"
+       class="inline-block px-4 py-2 rounded border border-gray-700 text-light hover:border-accent transition">
+      <i class="fas fa-arrow-left mr-2"></i> Retour au portfolio
+    </a>
+  </header>
+
+  <!-- Main -->
+  <main class="max-w-5xl mx-auto px-6 py-12 space-y-12">
+    <!-- Présentation -->
+    <section class="space-y-4">
+      <h2 class="text-2xl font-bold"><i class="fas fa-building mr-2"></i> OOGARDEN - Ambérieu-en-Bugey</h2>
+      <p><strong><i class="far fa-calendar-alt mr-1"></i> Durée :</strong> 10 Mai - 25 Juin 2025 (7 semaines)</p>
+      <p><strong><i class="fas fa-tasks mr-1"></i> Mission principale :</strong> Créer un programme qui se connecte à Google Analytics 4 pour aller récupérer des données récoltées sur les sites web d'OOGarden (ex : nombre d'utilisateurs par mois et par pays).</p>
+      <p><strong><i class="fas fa-code mr-1"></i> Technologies :</strong> Visual Studio | Python | C# | Google Analytics API</p>
+    </section>
+
+    <!-- Journal de bord -->
+    <section>
+      <h2 class="text-2xl font-bold mt-12 mb-8"><i class="fas fa-book-open mr-2"></i> Journal de Bord Hebdomadaire</h2>
+
+      <!-- Semaine 1 à 7 -->
+      <div class="space-y-8">
+        <!-- Semaine 1 -->
+        <div class="bg-[#121213] border border-gray-700 rounded-lg p-6">
+          <h3 class="text-xl font-bold mb-2"><i class="far fa-calendar-check mr-2"></i> Semaine 1 (10/05/2025 → 15/05/2025)</h3>
+          <ul class="list-disc list-inside space-y-1 text-gray-400">
+            <li>Découverte de l'entreprise et de l'équipe.</li>
+            <li>Installation et configuration de l'environnement de développement.</li>
+            <li>Découverte du code Python existant.</li>
+            <li>Lectures de la documentation Google Analytics API.</li>
+            <li>Découverte de Git Extension.</li>
+            <li>Découverte du langage C#.</li>
+            <li>Première utilisation de Visual Studio.</li>
+            <li>Création d'un dépôt git en local avec serveur distant.</li>
+            <li>Traduction faite de Python à C# (merci StackOverflow 😅).</li>
+            <li>Identification des pièces manquantes (clé JSON + numéro de propriété GA).</li>
+            <li>Premier résultat en console : nb d'utilisateurs actifs par ville.</li>
+            <li>Ajout d'une méthode de tri + total + export Excel.</li>
+            <li>Création d'un .gitignore personnalisé.</li>
+            <li>Rédaction d'une procédure (en markdown bien sûr 😎) pour la connexion à GA4.</li>
+          </ul>
         </div>
-    </header>
-    <main>
-        <section class="internship-section">
-            <div class="project-info">
-                <h2><i class="fas fa-building"></i> Stage chez OOGARDEN - Ambérieu-en-Bugey</h2>
-                <div class="internship-details">
-                    <p><strong><i class="far fa-calendar-alt"></i> Durée :</strong> 10 Mai - 25 Juin 2025 (7 semaines)</p>
-                    <p><strong><i class="fas fa-tasks"></i> Mission principale :</strong> Créer un programme qui se connecte à Google Analytics 4 pour aller récupérer des données récoltées sur les sites web d'OOGarden (ex : nombre d'utilisateurs par mois et par pays).</p>
-                    <p><strong><i class="fas fa-code"></i> Technologies :</strong> Visual Studio | Python | C# | Google Analytics API</p>
-                </div>
-            </div>
 
-            <h2 class="journal-title"><i class="fas fa-book-open"></i> Journal de Bord Hebdomadaire</h2>
-            
-            <!-- Semaine 1 -->
-            <div class="week-card">
-                <div class="week-header">
-                    <h3><i class="far fa-calendar-check"></i> Semaine 1 ( 10/05/2025 → 15/05/2025 )</h3>
-                    <span class="week-number">Semaine 1/7</span>
-                </div>
-                    <ul class="task-list">
-                    <li> Découverte de l'entreprise et de l'équipe.</li>
-                    <li> Installation et configuration de l'environnement de développement.</li>
-                    <li> Découverte du code Python existant.</li>
-                    <li> Lectures de la documentation Google Analytics API.</li>
-                    <li> Découverte de la version graphique de Git BASH (Git Extension).</li>
-                    <li> Découverte du langage C#.</li>
-                    <li> Première utilisation de l'outil Visual Studio</li>
-                    <li> Création d'un dépôt git en local avec un serveur distant.</li>
-                    <li> Traduction faite de Python à C# (Code presque déjà présent sur Google merci StackOverflow).</li>
-                    <li> Identification des pièces manquantes pour que mon programme marche (Clé JSON regroupant les identifiants pour récupérer les résultats + numéro de la propriété du compte Google Analytics).</li>
-                    <li> Premier résultat de mon programme C# dans la console (Nb d'utilisateurs actifs par ville).</li>
-                    <li> Amélioration des résultats en triant par les 3 meilleures villes avec l'ajout d'une nouvelle méthode générant le total.</li>
-                    <li> Ajout d'un système qui renvoie un document Excel.</li>
-                    <li> Nouvelle formation de git avec Git Extension et comment gérer son dépôt & comment l'utiliser en entreprise.</li>
-                    <li> J'ai appris à créer mon propre .gitignore pour améliorer le visuel de mes commits et garder que mes fichiers sources et virer les .dll, .exe, .bin, ...</li>
-                    <li> Rédaction d'une procédure Word pour aider dans le futur mes collègues pour refaire la procédure de connexion à Google Analytics (Création d'un compte de service, propertyID, Comment générer une Clé JSON). PS : Je ne les ai pas écoutés et je l’ai faite en Markdown vous inquiétez pas M. Januel</li>
-                </ul>
-            </div>   
-            <!-- Semaine 2 -->
-            <div class="week-card">
-                <div class="week-header">
-                    <h3><i class="far fa-calendar-check"></i> Semaine 2 ( 18/05/2025 → 22/05/2025 )</h3>
-                    <span class="week-number">Semaine 2/7</span>
-                </div>
-                <ul class="task-list">
-                    <li> J'ai appris la méthode de programmation de l'entreprise et renommé toutes mes variables en anglais pour qu'elles soient le plus claires possible.</li>
-                    <li> Amélioration de mon code en le rendant plus lisible et en essayant de tout remplacer par des fonctions. (pour le moment pas réussi c'est trop dur)</li>
-                    <li> Ajout d'un dateRange sur mon fichier Excel qui est défini par les arguments que j'ai donnés en entrée dans mon main (args[0] -> startDate args[1] -> endDate) (période de collecte des résultats)</li>
-                    <li> Mise à jour de ma Procédure d'utilisation</li>
-                    <li> J'ai mis de nouvelles valeurs dans la collecte des données de mon code pour qu'il puisse collecter des données qui sont vraiment importantes et utiles pour l'entreprise (activeUsers, newUsers, bounceRate, screenPageViews, etc..)</li>
-                    <li> Récupération des données sur les différents sites de OOGarden hors France (Belgique et Allemagne)</li>
-                    <li> Ajout d'un système de tri pour avoir une cohérence dans les résultats obtenus dans mon fichier Excel</li>
-                    <li> Apprentissage du lexique des commits et comment en faire un qui est efficace</li>
-                    <li> Je rencontre pour le moment ma plus grande difficulté qui est le formatage de mon code, tout transformer en fonction</li>
-                    <li> Apéro à la Maison de Philippe et barbecue merguez, brochette, ... de 12h -> 14h</li>
-                    <li> Découpage de mon code en 2 fonctions, une fonction récupérant les données et l'autre concernant le formatage en fichier Excel</li>
-                </ul>
-            </div>
-            
-            <!-- Semaines 3 -->
-            <div class="week-card">
-                <div class="week-header">
-                    <h3><i class="far fa-calendar-check"></i> Semaine 3 ( 25/05/2025 → 29/05/2025 )</h3>
-                    <span class="week-number">Semaine 3/7</span> 
-                </div>
-                <ul class="task-list">
-                    <li> Découverte d'un Web Service </li>
-                    <li> Découverte du fonctionnement d'un Batch</li>
-                    <li> Apprentissage de la création d'un appel à Sage (logiciel qui va recevoir mes données de GA4) en XML SOAP</li>
-                    <li> Apprentissage de la création d'une requête HTTP</li>
-                    <li> Fix d'un bug dans lequel je pensais recevoir les données de la Belgique et Allemagne alors que je récupérais les données des Belges/Allemands qui se connectent au site français et non directement les données des sites belge/allemand</li>
-                    <li> Développement d'une fonction qui construit et envoie une requête SOAP au web service Sage pour transmettre mes données analytiques (date, pays, nombre de visites, nouveaux visiteurs, taux de rebond). </li>
-                    <li> J’ai mis en place une requête HTTP POST sécurisée pour communiquer avec le web service, en gérant l’authentification et les en-têtes nécessaires.</li>
-                    <li> J’ai découvert comment lire la réponse du serveur après l’envoi de la requête SOAP, ce qui permet de vérifier le bon déroulement de l’opération. (signification erreur 200->299 / 300 / 400 etc...)</li>
-                    <li> Conversion de mes résultats en sortie sous format Sage</li>
-                    <li> Prmière tentative d’envoi des vraies données de Google Analytics 4 à Sage et non des données tests que j'envoyais en brut en les passant en argument de ma fonction</li> 
-                    <li> Changement de mon organisation de travail, ayant un projet seul, sur l'ensemble de mon travail je n'ai personne pour m'accompagner, cependant c'est moi qui les appelais quand j'avais besoin d'aide et tous les vendredis nous faisions une revue de code, regardant ainsi où j'en suis, ce qu'il y a à améliorer et ils m'apprennent des choses. Mon projet évoluant et devenant plus complexe et compliqué, il y a un ajout d'un accompagnement où chaque jour pendant 30 minutes mes tuteurs viennent avec moi et m'orientent sur les travaux que j'ai à faire, ce qui me reste à faire avec correction de mon travail, etc...</li>
-                    <li> Correction de mon taux de rebond qui renvoyait un mauvais total, il faisait la somme de l'ensemble des pourcentages de chaque pays sous forme décimale ce qui est mathématiquement faux. </li>
-                    <li> Correction d'une erreur dans ma requête SOAP vers Sage, j'envoyais à Sage "France" pour les pays alors que Sage attendait un Integer</li>
-                </ul>
-            </div>
-            
-            <!-- Semaines 4 -->
-            <div class="week-card">
-                <div class="week-header">
-                    <h3><i class="far fa-calendar-check"></i> Semaine 4 ( 01/06/2025 → 06/06/2025 )</h3>
-                    <span class="week-number">Semaine 4/7</span>
-                </div>
-                <ul class="task-list">
-                    <li> J'ai terminé l’envoi des bonnes données que j'envoie à Sage </li>
-                    <li> Je dois maintenant dans mon programme envoyer de nouvelles données pour mon maître de stage, je vais devoir couper en deux mon code pour avoir une partie que j'envoie à Sage et une autre où j'envoie les données à mon maître de stage </li> 
-                    <li> Découverte des metrics personnalisés, mon maître de stage a créé ses propres données que je dois essayer de récupérer via une autre méthode </li>
-                    <li> Ajout d'un nouveau type de sortie Google Sheet sur Google Drive </li>
-                    <li> Ajout d'un filtre | Période : mois et année OU jour, mois et année </li>
-                    <li> Amélioration complète de mes fichiers, remplacer le plus d'itérations possible par des fonctions</li>
-                    <li> Deuxième amélioration : tout fragmenter en classes et tout séparer dans des fichiers différents pour isoler chaque élément et que si jamais je fais une erreur, qu'une seule zone soit touchée, cela limite grandement la casse</li>
-                    <li> Amélioration de la lisibilité du code et traduction de l'ensemble des variables en anglais</li>
-                    <li> Découverte de la notion de multi-objet en POO et utilisation dans mon code </li>
-                    <li> Découverte de la notion d'interface en POO et utilisation dans mon code </li>
-                    <li> Découverte de la notion d'énumération en POO et utilisation dans mon code </li>
-                    <li> Correction des nouvelles erreurs de mon code séparé : création de nouveaux dictionnaires, création d'un nv chemin de sortie pour mn Excel et correction des résultats </li>
-                    <li> Ajout d'un filtre concernant les données sessions et purchaseRevenue dans laquele j'ajoute des résultats pour mobile,tablet et desktop </li>
-                    <li> Correction bug sur l'envoie de Sage pour l'ID pays</li>
-                    <li> J'esssaye depuis 2 jours ave mon maitre de stage d'utiliser c'est metrics perso mais impossible des le récupérers pour le moment, toujours bloqué</li>
-                    <li> Fix bug des Metrics, le premier tour de boucle récupérais les données perso mais le deuxieme et troisieme non car le site .be et .de ne possedait pas les metrics perso</li>
-                </ul>
-            </div>
-
-
-            <!-- Semaines 5  -->
-            <div class="week-card">
-                <div class="week-header">
-                    <h3><i class="far fa-calendar-check"></i> Semaine 5 ( 08/06/2025 → 12/06/2025 )</h3>
-                    <span class="week-number">Semaine 5/7</span>
-                </div>
-                <ul class="task-list">
-                    <li> Fix : correction des résultats en sortie pour les metrics personnalisées </li>
-                    <li> Découverte et utilisation courente de NotePad ++ pour analyser mes requetes SOAP </li>   
-                    <li> Réorganisation de la collecte de mes données dans mon fichier Excel.</li>
-                    <li> Fix bug de la focntion ExportToWebServiceSage </li>
-                    <li> Création d'un Script JS sur Apps Script pour automatiser l'export sous forme googleSheet par jour</li>
-                    <li> Changment de stratégie pour l'export en Sheet je passe par un Nugget </li>
-                </ul>
-            </div>
-
-            <!-- Semaines 6  -->
-            <div class="week-card">
-                <div class="week-header">
-                    <h3><i class="far fa-calendar-check"></i> Semaine 6 ( 15/06/2025 → 19/06/2025 )</h3>
-                    <span class="week-number">Semaine 6/7</span>
-                </div>
-                <ul class="task-list">
-                    <li> Fin de mon projet : correction des détails</li>
-                    <li> Visite de l'enteprise avec les autres pôles</li>
-                    <li> Présentation de leur infrastructure réseau</li>
-                    <li> Correction d'un bug : Pou la vitesse du site que je calculais, à chaque fois je divisais par le nombre total d'évènnement Webperf total même pour la vitesse par appareil mobile, Desktop et Table, alors que j'aurais du diviser par le nombre d'évènement Webperf Mobile,Desktop et Table et non à chaque fois le total </li>
-                    <li> Correction des valeurs leurs d'envoies à Sage : ActiveUsers,NewUsers et BounceRate</li> 
-                    <li> Découverte approndie du WebService Sage et de vraiment comment il marche</li>                   
-                </ul>
-            </div>
-
-            <!-- Semaines 7 -->
-            <div class="week-card">
-                <div class="week-header">
-                    <h3><i class="far fa-calendar-check"></i> Semaine 7 ( 22/06/2025 → 23/06/2025 )</h3>
-                    <span class="week-number">Semaine 7/7</span>
-                </div>
-                <ul class="task-list">
-                    <li> </li>
-                    <li> </li>   
-                </ul>
-            </div>
-
-
-            <!-- Compétences acquises -->
-        </section>
-        
-        <section class="skills-section">
-            <h2><i class="fas fa-award"></i> Compétences acquises</h2>
-            <div class="skills-acquired">
-                <div class="skill-category">
-                    <h3><i class="fas fa-laptop-code"></i> Techniques</h3>
-                    <ul class="blue-bullets">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li> 
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li> 
-                    </ul>
-                </div>
-                <div class="skill-category">
-                    <h3><i class="fas fa-user-tie"></i> Professionnelles</h3>
-                    <ul class="blue-bullets">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li> 
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li> 
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="footer-content">
-            <p>© 2025 Evann Terrier - Portfolio BTS SIO</p>
-            <div class="footer-links">
-                <a href="mailto:evann.terrier17@gmail.com"><i class="fas fa-envelope"></i></a>
-                <a href="https://github.com/Quanxi-acc" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/evann-terrier-63a439350" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </div>
+        <!-- Semaine 2 -->
+        <div class="bg-[#121213] border border-gray-700 rounded-lg p-6">
+          <h3 class="text-xl font-bold mb-2"><i class="far fa-calendar-check mr-2"></i> Semaine 2 (18/05/2025 → 22/05/2025)</h3>
+          <ul class="list-disc list-inside space-y-1 text-gray-400">
+            <li>Renommage des variables en anglais selon les standards de l’entreprise.</li>
+            <li>Refactorisation du code (modulaire → fonctions), pas si facile…</li>
+            <li>Ajout de dateRange (args[0] = start, args[1] = end).</li>
+            <li>Mise à jour de la procédure d’utilisation.</li>
+            <li>Ajout de nouvelles dimensions/metrics utiles : activeUsers, newUsers, bounceRate, etc.</li>
+            <li>Collecte de données .be et .de.</li>
+            <li>Système de tri dans l’export Excel.</li>
+            <li>Formation aux commits propres et lisibles.</li>
+            <li>Plus grosse difficulté : tout transformer en fonctions (spoiler : pas fini).</li>
+            <li>Apéro barbecue à midi chez Philippe 🍖🔥</li>
+            <li>Découpage du code en 2 fonctions : collecte + génération Excel.</li>
+          </ul>
         </div>
-    </footer>
-</body>
-</html>
+
+        <!-- Semaine 3 -->
+        <div class="bg-[#121213] border border-gray-700 rounded-lg p-6">
+          <h3 class="text-xl font-bold mb-2"><i class="far fa-calendar-check mr-2"></i> Semaine 3 (25/05/2025 → 29/05/2025)</h3>
+          <ul class="list-disc list-inside space-y-1 text-gray-400">
+            <li>Découverte de Web Service, batch, requête HTTP.</li>
+            <li>Construction + envoi de requêtes SOAP pour envoyer les données à Sage.</li>
+            <li>Gestion des headers + authentification HTTP POST.</li>
+            <li>Lecture des codes retours du serveur (200, 400, etc.).</li>
+            <li>Conversion des résultats au format attendu par Sage.</li>
+            <li>Tentative d’envoi réel de données GA4 (plus de “données test”).</li>
+            <li>Ajout d’un suivi quotidien par les tuteurs + revue de code chaque vendredi.</li>
+            <li>Correction d’une erreur dans le calcul du taux de rebond (faux total).</li>
+            <li>SAGE attendait un ID numérique… pas “France” en string 🫠</li>
+          </ul>
+        </div>
+
+        <!-- Semaine 4 -->
+        <div class="bg-[#121213] border border-gray-700 rounded-lg p-6">
+          <h3 class="text-xl font-bold mb-2"><i class="far fa-calendar-check mr-2"></i> Semaine 4 (01/06/2025 → 06/06/2025)</h3>
+          <ul class="list-disc list-inside space-y-1 text-gray-400">
+            <li>Finalisation de l’envoi vers SAGE.</li>
+            <li>Division du code pour permettre un export vers SAGE + un autre vers mon tuteur.</li>
+            <li>Découverte des metrics personnalisées (merci le chef 👨‍💻).</li>
+            <li>Ajout d’un export Google Sheet sur Drive (via API Sheets).</li>
+            <li>Ajout de filtres de dates (jour/mois/année).</li>
+            <li>Remplacement d’itérations par des fonctions.</li>
+            <li>Découpage en fichiers/classes/modules pour + de lisibilité.</li>
+            <li>Découverte et mise en œuvre : multi-objet, interface, enum (POO).</li>
+            <li>Ajout de stats par device : mobile, tablette, desktop.</li>
+            <li>Fix metrics personnalisées uniquement présentes sur certains sites (FR ≠ BE/DE).</li>
+          </ul>
+        </div>
+
+        <!-- Semaine 5 -->
+        <div class="bg-[#121213] border border-gray-700 rounded-lg p-6">
+          <h3 class="text-xl font-bold mb-2"><i class="far fa-calendar-check mr-2"></i> Semaine 5 (08/06/2025 → 12/06/2025)</h3>
+          <ul class="list-disc list-inside space-y-1 text-gray-400">
+            <li>Correction des résultats metrics personnalisées.</li>
+            <li>Découverte et usage de Notepad++ pour parser les requêtes XML.</li>
+            <li>Réorganisation complète du fichier Excel (mise en forme pro).</li>
+            <li>Fix de la fonction ExportToWebServiceSage.</li>
+            <

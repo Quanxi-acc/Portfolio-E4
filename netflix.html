@@ -1,100 +1,89 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projet Netflix - Portfolio Evann</title>
-    <link rel="stylesheet" href="portfolio.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Projet Netflix – Portfolio Evann</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
-<body>
-    <header>
-        <div class="header-content">
-            <h1>Projet Netflix</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html" class="btn"><i class="fas fa-arrow-left"></i> Retour au Portfolio</a></li>
-                </ul>
-            </nav>
+<body class="bg-[#1A1A1B] text-gray-100 font-sans min-h-screen">
+
+  <!-- Header -->
+  <header class="py-6 px-6 border-b border-gray-800 flex items-center justify-between">
+    <h1 class="text-2xl font-bold bg-gradient-to-r from-accent to-accent2 bg-clip-text text-transparent">
+      🎬 Projet Netflix
+    </h1>
+    <a href="index.html"
+       class="inline-block px-4 py-2 rounded border border-gray-700 text-light hover:border-accent transition">
+      <i class="fas fa-arrow-left mr-2"></i> Retour au portfolio
+    </a>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-12 space-y-12">
+    <section>
+      <h2 class="text-2xl font-semibold text-white mb-4"><i class="fas fa-video mr-2"></i> Reproduction d’un site de streaming</h2>
+      <p class="text-gray-400">
+        Projet de développement web visant à recréer les fonctionnalités principales d'une plateforme de streaming.
+      </p>
+    </section>
+
+    <section class="space-y-8">
+      <div class="border-t border-gray-800 pt-6">
+        <h3 class="text-xl font-bold mb-2"><i class="fas fa-code mr-2"></i> Technologies utilisées</h3>
+        <div class="flex flex-wrap gap-3">
+          <span class="bg-accent/10 text-accent px-3 py-1 rounded-full text-sm">JavaScript</span>
+          <span class="bg-accent/10 text-accent px-3 py-1 rounded-full text-sm">HTML5</span>
+          <span class="bg-accent/10 text-accent px-3 py-1 rounded-full text-sm">CSS</span>
+          <span class="bg-accent/10 text-accent px-3 py-1 rounded-full text-sm">PHP</span>
+          <span class="bg-accent/10 text-accent px-3 py-1 rounded-full text-sm">MySQL</span>
         </div>
-    </header>
-    <main>
-        <section class="project-section">
-            <h2><i class="fas fa-film"></i> Détails du projet Netflix</h2>
-            <div class="project-details">
-                </div>
-                <div class="project-info">
-                    <h3><i class="fas fa-video"></i> Reproduction d'un site de streaming</h3>
-                    <div class="project-description">
-                        <p><strong><i class="fas fa-book-open"></i> Contexte :</strong> Projet de développement web visant à recréer les fonctionnalités principales d'une plateforme de streaming.</p>
-                        <p><strong><i class="fas fa-code"></i> Technologies :</strong> JavaScript, HTML5, CSS, PHP, MySQL</p>
-                        
-                        <div class="features-container">
-                            <!-- Espace Utilisateur -->
-                            <div class="feature-card user-features">
-                                <div class="feature-header">
-                                    <div class="feature-icon"><i class="fas fa-user"></i></div>
-                                    <h3>Espace Utilisateur</h3>
-                                </div>
-                                
-                                <div class="feature-group">
-                                    <h4><i class="fas fa-key"></i> Authentification</h4>
-                                    <ul class="feature-list">
-                                        <li><i class="fas fa-check-circle"></i> Création de compte via la page "Mon Compte"</li>
-                                        <li><i class="fas fa-lock"></i> Connexion via une page dédiée</li>
-                                        <li><i class="fas fa-envelope"></i> Vérification d'email unique</li>
-                                        <li><i class="fas fa-mobile-alt"></i> Adaptation pour téléphone</li>
-                                    </ul>
-                                </div>
-                                
-                                <div class="feature-group">
-                                    <h4><i class="fas fa-compass"></i> Navigation & Contenu</h4>
-                                    <ul class="feature-list">
-                                        <li><i class="fas fa-sliders-h"></i> Carrousels interactifs pour films/séries</li>
-                                        <li><i class="fas fa-tags"></i> Filtrage par genre et type</li>
-                                        <li><i class="fas fa-search"></i> Barre de recherche dynamique</li>
-                                        <li><i class="fas fa-play"></i> Bande-annonce pour chaque film</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            
-                            <!-- Espace Administrateur -->
-                            <div class="feature-card admin-features">
-                                <div class="feature-header">
-                                    <div class="feature-icon"><i class="fas fa-tools"></i></div>
-                                    <h3>Espace Administrateur</h3>
-                                </div>
-                                
-                                <div class="feature-group">
-                                    <h4><i class="fas fa-database"></i> Gestion du Catalogue</h4>
-                                    <ul class="feature-list">
-                                        <li><i class="fas fa-plus-circle"></i> Ajout/suppression de films et séries</li>
-                                        <li><i class="fas fa-list-alt"></i> Gestion des genres et catégories</li>
-                                        <li><i class="fas fa-server"></i> Intégration directe dans la base de données</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="project-links">
-                        <a href="https://github.com/Quanxi-acc/Netflix.git" class="btn github-btn" target="_blank">
-                            <i class="fab fa-github"></i> Code source
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <div class="footer-content">
-            <p>© 2025 Evann Terrier - Portfolio BTS SIO</p>
-            <div class="footer-links">
-                <a href="mailto:evann.terrier17@gmail.com"><i class="fas fa-envelope"></i></a>
-                <a href="https://github.com/Quanxi-acc" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/evann-terrier-63a439350" target="_blank"><i class="fab fa-linkedin"></i></a>
-            </div>
-        </div>
-    </footer>
+      </div>
+
+      <!-- Espace utilisateur -->
+      <div>
+        <h3 class="text-xl font-bold mb-2"><i class="fas fa-user mr-2"></i> Espace Utilisateur</h3>
+        <h4 class="text-lg font-semibold mb-1"><i class="fas fa-key mr-1"></i> Authentification</h4>
+        <ul class="list-disc list-inside text-gray-400 space-y-1">
+          <li>Création de compte via la page "Mon Compte"</li>
+          <li>Connexion via une page dédiée</li>
+          <li>Vérification d’email unique</li>
+          <li>Adaptation pour téléphone</li>
+        </ul>
+
+        <h4 class="text-lg font-semibold mt-4 mb-1"><i class="fas fa-compass mr-1"></i> Navigation & Contenu</h4>
+        <ul class="list-disc list-inside text-gray-400 space-y-1">
+          <li>Carrousels interactifs pour films/séries</li>
+          <li>Filtrage par genre et type</li>
+          <li>Barre de recherche dynamique</li>
+          <li>Bande-annonce pour chaque film</li>
+        </ul>
+      </div>
+
+      <!-- Espace admin -->
+      <div>
+        <h3 class="text-xl font-bold mb-2"><i class="fas fa-tools mr-2"></i> Espace Administrateur</h3>
+        <h4 class="text-lg font-semibold mb-1"><i class="fas fa-database mr-1"></i> Gestion du catalogue</h4>
+        <ul class="list-disc list-inside text-gray-400 space-y-1">
+          <li>Ajout/suppression de films et séries</li>
+          <li>Gestion des genres et catégories</li>
+          <li>Intégration directe dans la base de données</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mt-8">
+      <h3 class="text-xl font-bold mb-2"><i class="fab fa-github mr-2"></i> Code source</h3>
+      <a href="https://github.com/Quanxi-acc/Netflix.git"
+         class="inline-block px-5 py-3 bg-gradient-to-r from-accent to-accent2 text-white rounded font-medium transition">
+        Voir le projet sur GitHub
+      </a>
+    </section>
+  </main>
+
+  <footer class="py-8 px-6 border-t border-gray-800 text-center text-gray-500 text-sm">
+    © 2025 Evann Terrier – Projet Netflix
+  </footer>
 </body>
 </html>
